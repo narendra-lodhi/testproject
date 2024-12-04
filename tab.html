@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <div class="header" id="nave">
+    <div class="container">
+      <div class="nav-main">
+        <div class="nav-icon"><i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+        <div class="nav">
+          <ul>
+            <li><a href="#">HOME</a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="dropdown">
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+              </ul>
+
+            </li>
+
+
+            <li><a href="#">HOME</a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="dropdown">
+                <li><a href="#">narendra</a>
+                  <ul class="subdropdown-twosss">
+                    <li><a href="#">rahul</a></li>
+                    <li><a href="#">rahul</a></li>
+
+                    <li><a href="#">rahul</a></li>
+
+                    <li><a href="#">rahul</a></li>
+                    <li><a href="#">rahul</a></li>
+
+
+                  </ul>
+
+
+
+                </li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+              </ul>
+
+            </li>
+            <li><a href="#">HOME</a><i class="fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="dropdown">
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+                <li><a href="#">narendra</a></li>
+              </ul>
+
+            </li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">HOME</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Accordion with symbols</h2>
+  <p>In this example we have added a "plus" sign to each button. When the user clicks on
+    the button, the "plus" sign is replaced with a "minus" sign.</p>
+  <button class="accordion">Section 1</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion">Section 2</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="accordion">Section 3</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+
+  <h2>Tabs</h2>
+  <p>Click on the buttons inside the tabbed menu:</p>
+  <div class="tab-main">
+
+
+    <div class="tab-header">
+      <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    </div>
+    <div class="tab-contant">
+
+
+      <div id="London" class="tabcontent" style="display: block;">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+
+      <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+
+      <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="tab-main">
+
+
+    <div class="tab-header">
+      <button class="tablinkss" onclick="openCitys(event, 'Londons')">Londons</button>
+      <button class="tablinkss" onclick="openCitys(event, 'Pariss')">Pariss</button>
+      <button class="tablinkss" onclick="openCitys(event, 'Tokyos')">Tokyos</button>
+    </div>
+    <div class="tab-contant">
+
+
+      <div id="Londons" class="tabcontents" style="display: block;">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+
+      <div id="Pariss" class="tabcontents">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+
+      <div id="Tokyos" class="tabcontents">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openCitys(evt, cityName) {
+      var i, tabcontents, tablinkss;
+      tabcontents = document.getElementsByClassName("tabcontents");
+      for (i = 0; i < tabcontents.length; i++) {
+        tabcontents[i].style.display = "none";
+      }
+      tablinkss = document.getElementsByClassName("tablinkss");
+      for (i = 0; i < tablinkss.length; i++) {
+        tablinkss[i].className = tablinkss[i].className.replace(" active", " ");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+
+  <div class="banner">
+    <div class="container">
+      <div class="slieder">
+        <div class="slied">
+          <div class="slied-box">
+            <div class="slied-col">
+              <img src="images/gallery1.jpg" alt="">
+
+            </div>
+          </div>
+
+          <div class="slied-box">
+            <div class="slied-col">
+              <img src="images/gallery2.jpg" alt="">
+
+            </div>
+          </div>
+
+          <div class="slied-box">
+            <div class="slied-col">
+              <img src="images/gallery3.jpg" alt="">
+
+            </div>
+          </div>
+
+          <div class="slied-box">
+            <div class="slied-col">
+              <img src="images/gallery4.jpg" alt="">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="check-box">
+    <div class="container">
+      <div class="check-main">
+        <span>Name</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ntn"> Hide & show</div>
+
+  <div class="tooltip">
+    <ul>
+      <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i><span>Add to Addlist</span></a></li>
+      <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i><span> Addlist</span></a></li>
+      <li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i><span>Payment</span></a></li>
+    </ul>
+  </div>
+
+
+
+
+  <div class="search">
+    <div class="search-bar">
+      <i class="fa fa-search icon" aria-hidden="true"></i>
+    </div>
+    <div class="input-feild">
+      <div class="input-area">
+        <input type="text" placeholder="Search ......">
+        <i class="fa fa-times close-search" aria-hidden="true"></i>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="btn-hover">
+    <button class="submit">submit</button>
+  </div>
+
+  <div class="toggle-button">
+    <input type="checkbox" id="check">
+    <label for="check"></label>
+  </div>
+
+
+  </div>
+  <div class="attr">
+    <div class="hdhover">Headding Hover</div>
+    <h1 data="NARENDRA">NARENDRA SINGH </h1>
+    <span data-item="LODHI">LODHI</span>
+  </div>
+
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/slick.min.js"></script>
+
+
+
+
+
+  <script>
+    $(document).ready(function () {
+
+
+      // $(".nav-icon").click(function () {
+      //   $(".nav").slideToggle(1500);
+      // });
+
+      // $(".ntn") .click (function(){
+      //   $(".tooltip") .hide ("slow")
+      // });
+
+      // $(".ntn") .dblclick (function(){
+      //   $(".tooltip") .show("slow")
+      // })
+
+      $(".ntn").click(function () {
+        $(".tooltip").toggle()
+      });
+
+      $(window).scroll(function () {
+
+        if ($(this).scrollTop() > 120) {
+          $('#nave').addClass('newclass');
+        } else {
+          $('#nave').removeClass('newclass');
+        };
+
+      });
+
+
+
+
+
+      $(".search-bar").click(function () {
+        $(".input-feild").addClass("close")
+      });
+      $(".close-search").click(function () {
+        $(".input-feild").removeClass("close")
+      });
+
+
+
+
+      $('.slied').slick({
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        autoplay: true,
+        //  centerMode: true,
+        centerPadding: '40px',
+      });
+
+      // ---drop-down-responsive--
+
+      // $('.nav li').click(function () {
+      //   $(this).siblings().removeClass('actives');
+      //   $(this).toggleClass('actives');
+      // });
+
+
+      $(".nav-icon").click(function () {
+                $(".nav").toggleClass("mobile-menu");
+            });
+            $(".nav ul li:first-child").click(function () {
+                $(".dropdown").toggle("_menu");
+            });
+    });
+  </script>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+
+
+
+  <div class="todale-button">
+    <input type="checkbox">
+    <span></span>
+  </div>
+
+  <div class="checkbox">
+    <div class="container">
+      <div class="checkbox-main">
+        <input type="checkbox">
+        <span>Name</span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
